@@ -15,6 +15,14 @@ ENV_VAR_USER_PASS = "MYSQL_USER_PASS"
 CONFIG_PATH = ROOT_DIR.joinpath("conf")
 CONFIG_NAME = "config"
 
+RESOURCES_PATH = ROOT_DIR.joinpath("resources")
+TEST_DATA_PATH = RESOURCES_PATH.joinpath("test-data")
+
+CSV_SEP = "\t"
+
+TEST_DATABASE_NAME = "testdb"
+TEST_TABLE_NAME = "testtable"
+
 
 if __name__ == "__main__":
     print(CONFIG_NAME)

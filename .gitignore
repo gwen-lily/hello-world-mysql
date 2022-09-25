@@ -3,3 +3,4 @@ scratch.ipynb
 .venv
 *.egg-info
 __pycache__*
+.~lock*
